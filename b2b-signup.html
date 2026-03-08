@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up | Baller2Baller</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/b2b-styles.css?v=2">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="b2b-home.html" class="brand">
+        <img class="brand-logo-img" src="images/hero.jpg" alt="B2B Logo" style="width:44px;height:44px;max-width:44px;object-fit:contain;border-radius:10px;flex-shrink:0;">
+        <div class="brand-text">
+          <h1>Baller2Baller</h1>
+          <p>Private Soccer Training</p>
+        </div>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+
+      <nav class="nav" id="navMenu">
+        <a class="nav-link" href="b2b-home.html">Home</a>
+        <a class="nav-link" href="b2b-about.html">About</a>
+        <a class="nav-link" href="b2b-info.html">Info</a>
+        <a class="nav-link nav-cta active" href="b2b-signup.html">Sign Up</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <h2>Sign Up for Training</h2>
+      <p>
+        Fill out the form below to request a session, then pick a time that works for you
+        on our calendar. We'll confirm everything and get you on the field.
+      </p>
+    </section>
+
+    <!-- Google Form Embed -->
+    <section class="section">
+      <div class="container">
+        <div class="embed-section">
+          <p class="embed-label">Step 1 &mdash; Request a Session</p>
+          <div class="embed-container">
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSfIWBqkRJM8RbUMBzojfCMqrqeLMh8H_hrRlxRE6h1GR4WahA/viewform?embedded=true"
+              width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0"
+              style="min-height: 800px;">
+              Loading…
+            </iframe>
+          </div>
+        </div>
+
+        <div class="embed-section">
+          <p class="embed-label">Step 2 &mdash; Pick a Time</p>
+          <div class="embed-container">
+            <div class="calendly-inline-widget"
+                 data-url="https://calendly.com/b2b-soccertraining/30min"
+                 style="min-width:320px;height:700px;">
+            </div>
+            <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ / Extra Info -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">What Happens Next?</h2>
+          <p class="section-subtitle">After you sign up, here's what to expect.</p>
+        </div>
+
+        <div class="card-grid">
+          <div class="card" style="text-align: center;">
+            <div class="card-icon" style="margin: 0 auto 16px;">1&#65039;&#8419;</div>
+            <h3>Submit Your Info</h3>
+            <p>Fill out the Google Form with your details -- name, age, experience level, and what you want to work on.</p>
+          </div>
+
+          <div class="card" style="text-align: center;">
+            <div class="card-icon purple" style="margin: 0 auto 16px;">2&#65039;&#8419;</div>
+            <h3>Pick a Time</h3>
+            <p>Use the Calendly widget to choose a date and time that works for your schedule.</p>
+          </div>
+
+          <div class="card" style="text-align: center;">
+            <div class="card-icon" style="margin: 0 auto 16px;">3&#65039;&#8419;</div>
+            <h3>Show Up & Train</h3>
+            <p>We'll confirm your session and send you the location details. Just bring your cleats and a ball!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section">
+      <div class="cta-block">
+        <h3>Questions Before Signing Up?</h3>
+        <p>Check out our info page or reach out to us directly. We're happy to help.</p>
+        <div class="btn-row">
+          <a class="btn btn-lg" href="b2b-info.html">Learn More</a>
+          <a class="btn btn-ghost btn-lg" href="b2b-about.html">About Us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Baller2Baller Soccer Training</p>
+      <div class="row gap-sm">
+        <a class="nav-link" href="b2b-home.html">Home</a>
+        <a class="nav-link" href="b2b-about.html">About</a>
+        <a class="nav-link" href="b2b-info.html">Info</a>
+        <a class="nav-link" href="b2b-signup.html">Sign Up</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/b2b-script.js"></script>
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Baller2Baller</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/b2b-styles.css?v=2">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="b2b-home.html" class="brand">
+        <img class="brand-logo-img" src="images/hero.jpg" alt="B2B Logo" style="width:44px;height:44px;max-width:44px;object-fit:contain;border-radius:10px;flex-shrink:0;">
+        <div class="brand-text">
+          <h1>Baller2Baller</h1>
+          <p>Private Soccer Training</p>
+        </div>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+
+      <nav class="nav" id="navMenu">
+        <a class="nav-link" href="b2b-home.html">Home</a>
+        <a class="nav-link active" href="b2b-about.html">About</a>
+        <a class="nav-link" href="b2b-info.html">Info</a>
+        <a class="nav-link nav-cta" href="b2b-signup.html">Sign Up</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <h2>Meet the Coaches</h2>
+      <p>
+        We're two college soccer players who started Baller2Baller to give young athletes the kind
+        of training we wish we had growing up. Real players, real coaching, real results.
+      </p>
+    </section>
+
+    <!-- Coach Profiles -->
+    <section class="section">
+      <div class="container">
+        <div class="coaches-grid">
+
+          <!-- Coach 1: You -->
+          <div class="coach-card">
+            <div class="coach-image">
+              <img src="images/coach-owen.jpg" alt="Owen - Coach & Co-Founder"
+                   style="object-position: center 5%; transform: scale(1.35);"
+                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <div class="image-placeholder" style="display:none;">
+                <div class="icon">&#128247;</div>
+                <p>Add your photo at<br><strong>images/coach-owen.jpg</strong></p>
+              </div>
+            </div>
+            <div class="coach-info">
+              <h3>Owen Filler</h3>
+              <div class="coach-role">Co-Founder & Coach</div>
+              <p class="coach-bio">
+                Owen is the starting left fullback at Rensselaer Polytechnic Institute and brings
+                years of high-level playing and coaching experience to every session. A former
+                captain of the Belmont High School varsity team and a four-year captain of his
+                Boston Bolts ECNL/NAL squad, Owen knows what it takes to lead and compete at
+                the highest levels. His resume speaks for itself: 2024 NAL National Champion,
+                2024 Eastern Mass All-Star, and Middlesex Starting XI selection. Owen's goal
+                with B2B is to pass on everything he's learned to the next generation of players.
+              </p>
+            </div>
+          </div>
+
+          <!-- Coach 2: Andrew -->
+          <div class="coach-card">
+            <div class="coach-image">
+              <img src="images/coach-andrew.jpg" alt="Andrew - Coach & Co-Founder"
+                   style="object-position: center 5%;"
+                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <div class="image-placeholder" style="display:none;">
+                <div class="icon">&#128247;</div>
+                <p>Add Andrew's photo at<br><strong>images/coach-andrew.jpg</strong></p>
+              </div>
+            </div>
+            <div class="coach-info">
+              <h3>Andrew Schreiner</h3>
+              <div class="coach-role">Co-Founder & Coach</div>
+              <p class="coach-bio">
+                Andrew is the starting right fullback at Dickinson College, where he helped lead
+                the team to the NCAA Elite 8 in 2025. A captain of the Belmont High School
+                varsity team in 2024 and captain of his NE Surf ECRL/ECNL squad, Andrew has
+                competed and led at every level. He was named a Greater Boston All-Star
+                Honorable Mention in 2023 and brings a winning mentality and defensive
+                expertise to every B2B session. Andrew's mission is to help young players
+                develop the tools and confidence to reach their full potential.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Story -->
+    <section class="section section-alt">
+      <div class="container split">
+        <div>
+          <h2 class="section-title">Our Story</h2>
+          <p class="section-subtitle" style="margin-bottom: 16px;">
+            Baller2Baller started with a simple idea: give young players access to training
+            from people who actually play the game at a competitive level.
+          </p>
+          <p style="color: var(--text-secondary); font-size: 15px; line-height: 1.7;">
+            As college soccer players, we've been through every level -- rec leagues, travel
+            teams, high school varsity, club showcases, and the college recruiting process.
+            We know what coaches look for, what it takes to stand out, and how to build the
+            skills that actually matter on the field. B2B was built to share that experience
+            with the next generation.
+          </p>
+        </div>
+
+        <div class="image-frame">
+          <img src="images/coaches.jpg?v=2" alt="Owen and Andrew" style="width:100%;height:100%;object-fit:cover;object-position:35% 25%;transform:scale(1.4);">
+        </div>
+      </div>
+    </section>
+
+    <!-- What We Believe -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">What We Believe</h2>
+          <p class="section-subtitle">Our coaching philosophy in a nutshell.</p>
+        </div>
+
+        <div class="card-grid">
+          <div class="card">
+            <div class="card-icon">&#127942;</div>
+            <h3>Reps Build Players</h3>
+            <p>There's no shortcut. Consistent, focused repetitions in training are what separate good players from great ones.</p>
+          </div>
+
+          <div class="card">
+            <div class="card-icon purple">&#129504;</div>
+            <h3>Play Smarter</h3>
+            <p>Technique is important, but understanding the game -- when to play fast, when to slow down -- is what makes the difference.</p>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">&#128293;</div>
+            <h3>Have Fun</h3>
+            <p>At the end of the day, soccer is a game. We keep training competitive, engaging, and something players actually look forward to.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section section-alt">
+      <div class="cta-block">
+        <h3>Want to Train with Us?</h3>
+        <p>Book a session and see for yourself what Baller2Baller training is all about.</p>
+        <div class="btn-row">
+          <a class="btn btn-lg" href="b2b-signup.html">Sign Up</a>
+          <a class="btn btn-ghost btn-lg" href="b2b-info.html">Learn More</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Baller2Baller Soccer Training</p>
+      <div class="row gap-sm">
+        <a class="nav-link" href="b2b-home.html">Home</a>
+        <a class="nav-link" href="b2b-about.html">About</a>
+        <a class="nav-link" href="b2b-info.html">Info</a>
+        <a class="nav-link" href="b2b-signup.html">Sign Up</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/b2b-script.js"></script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baller2Baller | Private Soccer Training</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/b2b-styles.css?v=2">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="b2b-home.html" class="brand">
+        <img class="brand-logo-img" src="images/hero.jpg" alt="B2B Logo" style="width:44px;height:44px;max-width:44px;object-fit:contain;border-radius:10px;flex-shrink:0;">
+        <div class="brand-text">
+          <h1>Baller2Baller</h1>
+          <p>Private Soccer Training</p>
+        </div>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+
+      <nav class="nav" id="navMenu">
+        <a class="nav-link active" href="b2b-home.html">Home</a>
+        <a class="nav-link" href="b2b-about.html">About</a>
+        <a class="nav-link" href="b2b-info.html">Info</a>
+        <a class="nav-link nav-cta" href="b2b-signup.html">Sign Up</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <h2 class="hero-title">
+            Train with players who've <span class="highlight">been in your shoes.</span>
+          </h2>
+          <p class="hero-text">
+            Baller2Baller offers private soccer lessons from college players who know what it
+            takes to compete at the next level. We bring real experience, real coaching, and
+            real results.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-lg" href="b2b-signup.html">Book a Session</a>
+            <a class="btn btn-ghost btn-lg" href="b2b-about.html">Meet the Coaches</a>
+          </div>
+
+          <div class="hero-badges">
+            <span class="badge">1-on-1 Training</span>
+            <span class="badge">College-Level Coaching</span>
+            <span class="badge">All Ages & Skill Levels</span>
+          </div>
+        </div>
+
+        <div class="image-frame" style="background:#fff;">
+          <img src="images/hero.jpg" alt="B2B Soccer Training session"
+               style="object-fit: cover; object-position: center 65%;"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="image-placeholder" style="display:none;">
+            <div class="icon">&#9917;</div>
+            <p>Add your hero image at<br><strong>images/hero.jpg</strong></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What We Offer -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">What We Bring to the Field</h2>
+          <p class="section-subtitle">
+            Every session is designed to sharpen your game with real skills that translate to match day.
+          </p>
+        </div>
+
+        <div class="card-grid">
+          <div class="card">
+            <div class="card-icon">&#9917;</div>
+            <h3>Technical Skills</h3>
+            <p>First touch, passing, finishing, and dribbling under pressure. We drill the fundamentals until they're second nature.</p>
+          </div>
+
+          <div class="card">
+            <div class="card-icon purple">&#127919;</div>
+            <h3>Game Intelligence</h3>
+            <p>Positioning, decision-making, and reading the play. We teach you to think faster and play smarter on the field.</p>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">&#128170;</div>
+            <h3>Confidence & Mindset</h3>
+            <p>Build the mental toughness and consistency you need to perform when it matters most in games and tryouts.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why B2B -->
+    <section class="section">
+      <div class="container split">
+        <div class="image-frame">
+          <img src="images/training.jpg" alt="Training session"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="image-placeholder" style="display:none;">
+            <div class="icon">&#128247;</div>
+            <p>Add a training photo at<br><strong>images/training.jpg</strong></p>
+          </div>
+        </div>
+
+        <div>
+          <h2 class="section-title">Why Train with Us?</h2>
+          <p class="section-subtitle" style="margin-bottom: 16px;">
+            We're not just coaches -- we're active college soccer players who compete at a high level every day.
+          </p>
+          <ul class="info-list">
+            <li>Personalized sessions tailored to your goals</li>
+            <li>Real experience from players who've been through the process</li>
+            <li>Flexible scheduling that works around your season</li>
+            <li>Affordable rates for families</li>
+          </ul>
+          <div class="row" style="margin-top: 24px;">
+            <a class="btn" href="b2b-info.html">Learn More</a>
+            <a class="btn btn-ghost" href="b2b-signup.html">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section section-alt">
+      <div class="cta-block">
+        <h3>Ready to Take Your Game to the Next Level?</h3>
+        <p>Sign up today and start training with coaches who know what it takes to compete.</p>
+        <div class="btn-row">
+          <a class="btn btn-lg" href="b2b-signup.html">Sign Up Now</a>
+          <a class="btn btn-ghost btn-lg" href="b2b-about.html">About Us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Baller2Baller Soccer Training</p>
+      <div class="row gap-sm">
+        <a class="nav-link" href="b2b-home.html">Home</a>
+        <a class="nav-link" href="b2b-about.html">About</a>
+        <a class="nav-link" href="b2b-info.html">Info</a>
+        <a class="nav-link" href="b2b-signup.html">Sign Up</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/b2b-script.js"></script>
+</body>
+</html>
